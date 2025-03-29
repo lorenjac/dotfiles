@@ -1,0 +1,27 @@
+---
+BasedOnStyle: LLVM
+AccessModifierOffset: 0
+AlignAfterOpenBracket: AlwaysBreak
+AllowAllArgumentsOnNextLine: false
+AllowAllParametersOfDeclarationOnNextLine: false
+AllowShortBlocksOnASingleLine: Always
+BinPackArguments: false
+BinPackParameters: false
+BraceWrapping:
+  AfterClass: true
+  AfterControlStatement: Always
+  AfterEnum: true
+  AfterFunction: true
+  AfterNamespace: true
+  AfterStruct: true
+  AfterUnion: true
+  BeforeCatch: true
+  BeforeElse: true
+  BeforeLambdaBody: true
+  BeforeWhile: true
+BreakBeforeBraces: Custom
+ColumnLimit: 100
+IndentWidth: 4
+PenaltyReturnTypeOnItsOwnLine: 6000
+PointerAlignment: Left
+TabWidth: 4
